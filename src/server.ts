@@ -1,5 +1,6 @@
 import express from "express";
 import router from "./routes/index.ts";
+
 interface serverOptions {
     port: number;
 }

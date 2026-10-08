@@ -1,0 +1,19 @@
+$kind: http-request
+url: http://localhost:3000/api/v1/products/
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"Loch\",\r
+
+    \  \"price\": 50,\r
+
+    \  \"stock\": 50,\r
+
+    \  \"description\": \"Lonchera con diseño sobrio y alto aislamiento térmico para conservar la temperatura de alimentos preparados.\",\r
+
+    \  \"brand\": \"Thermos\"\r
+
+    }"
+order: 1446108766077879

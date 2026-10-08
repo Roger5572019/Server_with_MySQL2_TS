@@ -17,6 +17,10 @@ const pool = mysql.createPool({
   keepAliveInitialDelay: 0,
 });
 
-pool.query('select 1');
+try {
+  console.log(pool.query('select 1'));
+} catch (error) {
+  console.error("Conexión fallida", error)
+}
 
 export default pool;

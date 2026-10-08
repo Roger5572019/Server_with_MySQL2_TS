@@ -1,0 +1,8 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/api/v1/products/2
+method: PATCH
+body:
+  type: json
+  content: '{"price": 5000}'
+order: 4034714792843781

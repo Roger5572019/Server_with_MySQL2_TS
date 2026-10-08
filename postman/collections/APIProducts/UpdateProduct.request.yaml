@@ -1,0 +1,20 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/api/v1/products/2
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"Hola\",\r
+
+    \  \"price\": 10,\r
+
+    \  \"stock\": 50,\r
+
+    \  \"description\": \"Lonchera con diseño sobrio y alto aislamiento térmico para conservar la temperatura de alimentos preparados.\",\r
+
+    \  \"brand\": \"Thermos\"\r
+
+    }"
+order: 3638086773242810
